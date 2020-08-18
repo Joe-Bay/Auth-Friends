@@ -44,7 +44,7 @@ useEffect(() => {
         setFriends(res.data)
     })
     .catch(err => console.log(err))    
-},[formValues])
+},[formValues === initialFormValues])
 
     
 
